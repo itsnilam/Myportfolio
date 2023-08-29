@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    color:rgb(196, 196, 233);
+}
+header{
+    margin: 0px;
+    padding: 0px;
+}
+.maindiv{
+    height: 50px;
+    border: 2px solid rgb(122, 230, 236);
+    width: 700px;
+    margin-left: 350px;
+    border-radius: 30px;
+    text-align: center;
+   padding-top: 20px;
+   border-top: none;
+
+}
+.maindiv:hover{
+    transform: scal(1.5);
+    
+}
+.navli li{
+    display: inline;
+    list-style-type: none;
+    margin-left: 20px;
+ margin-right:20px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 10px 10px;
+    text-align: center;
+   
+    
+}
+a{
+    text-decoration: none;
+    text-shadow: 0px 0px 2px rgb(255, 255, 255);
+    color: rgb(196, 196, 233);
+
+}
+.maindiv ul li a:hover{
+    
+    color: aqua;
+    font-size: 1rem;
+    transform: scale(1.5);
+    transition-duration: 2sec;
+}
+.gifdiv{
+    width: 100vw;
+    height: 500px;
+    /* border: 2px solid white; */
+    padding: 0px;
+    /* padding-right: 0px; */
+    margin: 0px;
+   
+    background-image: url("tumblr_0bf0b2f2e6e95aec607fa0aed5943506_c8a6b72d_500.gif");
+    z-index: -1;
+    
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.rsection{
+   /* margin-top: 20px; */
+   height: 300px;
+ margin: 50px;
+   width: 400px;
+}
+.lsection{
+    font-size: 3rem;
+   margin: 50px;
+    width: 400px;
+    height: 300px;
+   
+    
+}
+#name{
+ color: rgb(239, 32, 222);
+}
+
+.aboutdiv{
+    height: 400px;
+    width: 100vw;
+    /* border-top: 2px solid white; */
+}
+.section2{
+      display: flex;
+      align-items: center;
+      justify-content: space-around ;
+      margin-top: 2px;
+}
+.l2section{
+    margin-top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    /* text-shadow: 0px 0px 2px; */
+    color: rgb(196, 196, 233);
+    height: 100px;
+    width:400px;
+    margin-left: 100px;
+    padding: 90px 90;
+    /* background-color: antiquewhite; */
+    
+}
+.r2section{
+    margin-top: 50px;
+    height: 200px;
+    width:700px;
+    font-size: 25px;
+    word-spacing: 2px;
+padding: 30px;
+text-align: justify;
+text-indent: 30px;
+/* background-color: antiquewhite; */
+ border-left: 2px solid aqua;
+}
+
+.skildiv{
+    
+} 
+.l3section{
+   
+}
+
+.r3section{
+    height: 300px;
+    width: 600px;
+    
+}
+
+.table {
+    height: 350px;
+    width: 600px;
+   margin-left: 30px;
+}
